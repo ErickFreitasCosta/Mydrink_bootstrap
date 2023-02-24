@@ -1,7 +1,15 @@
-body{
-    box-sizing: border-box;
+.site{
+    
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    
   
 }
+.site-content{
+    flex-grow: 1;
+}
+
 .italico{
     font-family: 'Oxygen', sem serifa;
 font-family: 'Roboto', sem serifa;
@@ -24,8 +32,8 @@ ul:hover li:hover{
 
 footer{
     border-top: 1px solid black;
-    position: relative;
-    margin: 70% 20px 0 20px;
+    
+    
 }
 .content-footer{
     display: flex;
