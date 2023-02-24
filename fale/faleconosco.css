@@ -1,0 +1,46 @@
+.centralizar{
+    display: grid;
+    place-items: center;
+    
+    margin-top: 120px;
+    width:950px;
+    margin-left: 50px;
+}
+
+.meus-botoes{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    transition-duration: 5s;
+    
+}
+.meus-botoes:hover{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    transition: 5s;
+    
+}
+
+@media screen and (max-width: 614px){
+
+    .meus-botoes{
+        width: 614px;
+        display: flex;
+        margin: 0;
+        gap: 10px;
+        transition-duration: 3s;
+        
+}
+
+}
+@media screen and (max-width: 968px){
+
+    .meus-botoes{
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        transition-duration: 7s;
+}
+
+}
