@@ -10,17 +10,11 @@
 .meus-botoes{
     display: flex;
     position: relative;
-    justify-content: space-between;
+    justify-content: space-evenly;
     transition-duration: 5s;
     
 }
-.meus-botoes:hover{
-    display: flex;
-    position: relative;
-    justify-content: space-between;
-    transition: 5s;
-    
-}
+
 
 @media screen and (max-width: 614px){
 
