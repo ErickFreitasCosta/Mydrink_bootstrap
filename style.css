@@ -1,3 +1,20 @@
+body{
+    background-color: white;
+}
+.main{
+    background-color: white;
+    color: #333;
+}
+.dark{
+    background-color: #333;
+    color: white;
+}
+
+
+
+
+
+
 .site{
     
     display: flex;
@@ -6,8 +23,13 @@
     
   
 }
+.site-co{
+    display: flex;
+    justify-content: space-between;
+}
 .site-content{
     flex-grow: 1;
+ 
 }
 
 .italico{
